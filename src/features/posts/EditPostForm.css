@@ -1,0 +1,63 @@
+
+.editPostForm {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.editPostForm label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+
+.editPostForm .inputField,
+.editPostForm .selectField,
+.editPostForm .textareaField {
+    width: 99.2%;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+.editPostForm .textareaField {
+    height: 150px; /* Adjust as needed */
+}
+
+.editPostForm .selectField {
+    /* Set a fixed width for the select element */
+    width: calc(99.2% + 16px); /* Account for padding */
+}
+
+.editPostForm .saveButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.editPostForm .saveButton:hover {
+    background-color: #0056b3;
+}
+
+.editPostForm .disabledSaveButton {
+    background-color: #bdbdbd;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: not-allowed;
+}
+
+.editPostForm .disabledSaveButton:hover {
+    background-attachment: #9a9494;
+}

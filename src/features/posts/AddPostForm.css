@@ -1,0 +1,57 @@
+.addPostForm {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.formLabel {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.inputField,
+.selectField,
+.textareaField {
+    width: 99.2%;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.textareaField {
+    height: 150px; /* Adjust as needed */
+}
+
+.selectField {
+    /* Set a fixed width for the select element */
+    width: calc(99.2% + 16px); /* Account for padding */
+}
+
+.saveButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.saveButton:hover {
+    background-color: #0056b3;
+}
+.disabledSaveButton {
+    background-color: #bdbdbd;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: not-allowed;
+}
+.disabledSaveButton:hover {
+    background-attachment: #9a9494;
+}
