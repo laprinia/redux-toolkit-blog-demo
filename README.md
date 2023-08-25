@@ -1,4 +1,4 @@
-📩📯 Redux Blog App
+## 📩📯 Redux Blog App
 
 --Part of the Redux course I was taking
 
